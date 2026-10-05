@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_auteur_info_livres",
+  "info": {
+    "displayName": "Info-Livre"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Valeur": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

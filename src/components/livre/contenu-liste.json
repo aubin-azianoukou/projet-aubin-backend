@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_livre_contenu_listes",
+  "info": {
+    "displayName": "Contenu_liste"
+  },
+  "options": {},
+  "attributes": {
+    "Ordre": {
+      "type": "string"
+    },
+    "Pilier": {
+      "type": "string"
+    },
+    "Chapitre": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

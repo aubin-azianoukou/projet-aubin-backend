@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_formation_item_listes",
+  "info": {
+    "displayName": "Item-Liste",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "Titre_seo": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

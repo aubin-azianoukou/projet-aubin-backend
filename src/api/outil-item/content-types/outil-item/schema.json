@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "outil_items",
+  "info": {
+    "singularName": "outil-item",
+    "pluralName": "outil-items",
+    "displayName": "Outil-Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom_Outil": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "kind": "collectionType",
+  "collectionName": "livres",
+  "info": {
+    "singularName": "livre",
+    "pluralName": "livres",
+    "displayName": "Livre"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Titre"
+    },
+    "Fichier_pdf": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Maquette_Couverture": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "badge": {
+      "type": "string"
+    },
+    "sous_titre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "presentation_titre": {
+      "type": "string"
+    },
+    "presentation_texte": {
+      "type": "text"
+    },
+    "Auteur": {
+      "type": "string"
+    },
+    "annee_publication": {
+      "type": "string"
+    },
+    "ISBN_Papier": {
+      "type": "string"
+    },
+    "statut": {
+      "type": "enumeration",
+      "enum": [
+        "disponible",
+        "a_paraitre"
+      ]
+    },
+    "format": {
+      "type": "enumeration",
+      "enum": [
+        "papier_et_pdf",
+        "pdf",
+        "papier"
+      ]
+    },
+    "raison": {
+      "type": "component",
+      "component": "formation.pourquoi-liste",
+      "repeatable": true
+    },
+    "public": {
+      "type": "component",
+      "component": "formation.pourquoi-liste",
+      "repeatable": true
+    },
+    "Avis_Item": {
+      "type": "component",
+      "component": "auteur.avis-item",
+      "repeatable": true
+    },
+    "volet_livre": {
+      "type": "component",
+      "component": "auteur.volet-livre",
+      "repeatable": true
+    },
+    "Citation_Item": {
+      "type": "component",
+      "component": "auteur.citation-item",
+      "repeatable": true
+    },
+    "Info_Livre": {
+      "type": "component",
+      "component": "auteur.info-livre",
+      "repeatable": true
+    },
+    "ISBN_PDF": {
+      "type": "string"
+    },
+    "hero_titre": {
+      "type": "text"
+    },
+    "hero_sous_titre": {
+      "type": "string"
+    },
+    "hero_description": {
+      "type": "text"
+    },
+    "mission_titre": {
+      "type": "string"
+    },
+    "mission_texte": {
+      "type": "text"
+    },
+    "soutien_citation": {
+      "type": "component",
+      "component": "auteur.citation-item",
+      "repeatable": true
+    },
+    "informations_pratiques": {
+      "type": "component",
+      "component": "auteur.info-livre",
+      "repeatable": true
+    },
+    "Table_Matieres": {
+      "type": "blocks"
+    },
+    "Extrait_Gratuit": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Lien_Achat_Papier": {
+      "type": "string"
+    },
+    "Lien_Achat_PDF": {
+      "type": "string"
+    },
+    "Prix_Papier": {
+      "type": "string"
+    },
+    "Prix_PDF": {
+      "type": "string"
+    },
+    "livre_vedettes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "Livre"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "auteur_bio": {
+      "type": "text"
+    },
+    "Contenu_liste": {
+      "type": "component",
+      "component": "livre.contenu-liste",
+      "repeatable": true
+    },
+    "Ressource_pratique": {
+      "type": "component",
+      "component": "livre.outils",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_auteur_volet_livres",
+  "info": {
+    "displayName": "Volet-Livre"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Texte": {
+      "type": "text"
+    },
+    "Liste": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

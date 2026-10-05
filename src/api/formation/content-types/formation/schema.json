@@ -1,0 +1,137 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formations",
+  "info": {
+    "singularName": "formation",
+    "pluralName": "formations",
+    "displayName": "Formation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Prix": {
+      "type": "biginteger"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Titre"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Duree": {
+      "type": "string"
+    },
+    "Objectifs": {
+      "type": "richtext"
+    },
+    "Lieu": {
+      "type": "string"
+    },
+    "Badge": {
+      "type": "text"
+    },
+    "Sous_titre": {
+      "type": "text"
+    },
+    "Presentation": {
+      "type": "text"
+    },
+    "Certification_Nom": {
+      "type": "string"
+    },
+    "instructor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "certification_description": {
+      "type": "text"
+    },
+    "projet_final_description": {
+      "type": "text"
+    },
+    "projet_final_livrable": {
+      "type": "text"
+    },
+    "pourquoi_liste": {
+      "type": "component",
+      "component": "formation.pourquoi-liste",
+      "repeatable": true
+    },
+    "Module_Formation": {
+      "type": "component",
+      "component": "formation.module-formation",
+      "repeatable": true
+    },
+    "competences": {
+      "type": "component",
+      "component": "formation.item-liste",
+      "repeatable": true
+    },
+    "problemes_liste": {
+      "type": "component",
+      "component": "formation.item-liste",
+      "repeatable": true
+    },
+    "resultats_liste": {
+      "type": "component",
+      "component": "formation.item-liste",
+      "repeatable": true
+    },
+    "public_liste": {
+      "type": "component",
+      "component": "formation.item-liste",
+      "repeatable": true
+    },
+    "prerequis_liste": {
+      "type": "component",
+      "component": "formation.item-liste",
+      "repeatable": true
+    },
+    "debouches": {
+      "type": "component",
+      "component": "formation.item-liste",
+      "repeatable": true
+    },
+    "pourquoi_nous_liste": {
+      "type": "component",
+      "component": "formation.item-liste",
+      "repeatable": true
+    },
+    "programme": {
+      "type": "component",
+      "component": "formation.module-formation",
+      "repeatable": true
+    },
+    "faq": {
+      "type": "component",
+      "component": "faq.faq-item",
+      "repeatable": true
+    },
+    "ratio_theorie_pratique": {
+      "type": "string"
+    },
+    "offre_promo": {
+      "type": "string"
+    }
+  }
+}

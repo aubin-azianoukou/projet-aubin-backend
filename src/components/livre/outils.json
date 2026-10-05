@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_livre_outils",
+  "info": {
+    "displayName": "Outils"
+  },
+  "options": {},
+  "attributes": {
+    "nom_outil": {
+      "type": "string"
+    },
+    "Chapitre": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

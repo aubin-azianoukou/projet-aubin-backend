@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "auteurs",
+  "info": {
+    "singularName": "auteur",
+    "pluralName": "auteurs",
+    "displayName": "Auteur"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Badge": {
+      "type": "string"
+    },
+    "Hero_Titre": {
+      "type": "text"
+    },
+    "Hero_Sous_Titre": {
+      "type": "string"
+    },
+    "Hero_Description": {
+      "type": "text"
+    },
+    "Mission_Titre": {
+      "type": "string"
+    },
+    "Mission_Texte": {
+      "type": "text"
+    },
+    "CTA_Titre": {
+      "type": "string"
+    },
+    "CTA_Texte": {
+      "type": "text"
+    }
+  }
+}

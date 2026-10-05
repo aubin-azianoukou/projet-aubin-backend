@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "FAQ"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Sous_titre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "string"
+    },
+    "FAQ_Item": {
+      "type": "component",
+      "component": "faq.faq-item",
+      "repeatable": true
+    }
+  }
+}

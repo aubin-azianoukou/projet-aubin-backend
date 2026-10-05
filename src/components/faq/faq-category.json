@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_faq_faq_categories",
+  "info": {
+    "displayName": "faq-category",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {},
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_auteur_avis_items",
+  "info": {
+    "displayName": "Avis-Item"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Texte": {
+      "type": "text"
+    },
+    "Changement": {
+      "type": "text"
+    },
+    "Resultat": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_categorie_temoignage_categorie_temoignages",
+  "info": {
+    "displayName": "Categorie-Temoignage",
+    "icon": "folder"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

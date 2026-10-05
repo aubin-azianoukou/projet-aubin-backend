@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_formation_pourquoi_listes",
+  "info": {
+    "displayName": "pourquoi_liste"
+  },
+  "options": {},
+  "attributes": {
+    "Texte": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

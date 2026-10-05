@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_formation_module_formations",
+  "info": {
+    "displayName": "Module-Formation",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Titre_Module": {
+      "type": "string"
+    },
+    "Description_Module": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

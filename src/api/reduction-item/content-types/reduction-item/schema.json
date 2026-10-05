@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reduction_items",
+  "info": {
+    "singularName": "reduction-item",
+    "pluralName": "reduction-items",
+    "displayName": "Reduction-Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom_Reduction": {
+      "type": "string"
+    },
+    "Taux_Reduction": {
+      "type": "biginteger"
+    }
+  }
+}

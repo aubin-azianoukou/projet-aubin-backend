@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Contenu": {
+      "type": "blocks"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Livre": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::livre.livre",
+      "inversedBy": "livre_vedettes"
+    }
+  }
+}

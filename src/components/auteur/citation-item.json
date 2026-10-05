@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_auteur_citation_items",
+  "info": {
+    "displayName": "Citation-Item"
+  },
+  "options": {},
+  "attributes": {
+    "Citation": {
+      "type": "text"
+    },
+    "Auteur": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

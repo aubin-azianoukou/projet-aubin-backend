@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorie_temoignages",
+  "info": {
+    "singularName": "categorie-temoignage",
+    "pluralName": "categorie-temoignages",
+    "displayName": "Categorie-Temoignage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Categorie_Temoignage": {
+      "type": "component",
+      "component": "categorie-temoignage.categorie-temoignage",
+      "repeatable": true
+    }
+  }
+}

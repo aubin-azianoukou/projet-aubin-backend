@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temoignages",
+  "info": {
+    "singularName": "temoignage",
+    "pluralName": "temoignages",
+    "displayName": "Témoignage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Note": {
+      "type": "integer"
+    },
+    "Texte": {
+      "type": "text"
+    },
+    "Avatar": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "categorie": {
+      "type": "enumeration",
+      "enum": [
+        "Formation",
+        "Consulting",
+        "Livre\t"
+      ]
+    },
+    "Ordre": {
+      "type": "integer"
+    },
+    "Role": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}
